@@ -1,5 +1,5 @@
-{% set version = "0.5.6" %}
-{% set hash_value = "d06b59f36454024ce952488956319eb542d5dc65f1e1b00fead71df94dbfcf88" %}
+{% set version = "0.5.9" %}
+{% set hash_value = "6eaca78e53fbe329b163f0f0b28f104de98edbd69a847268cc5d6a6e392b9b28" %}
 
 package:
   name: wand
