@@ -5,7 +5,7 @@ Home: https://github.com/emcconville/wand
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Wand is a ctypes-based simple ImageMagick binding for Python, supporting 2.7, 3.6+, and PyPy
 
