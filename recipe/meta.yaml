@@ -1,18 +1,17 @@
-{% set version = "0.5.9" %}
-{% set hash_value = "6eaca78e53fbe329b163f0f0b28f104de98edbd69a847268cc5d6a6e392b9b28" %}
+{% set version = "0.6.5" %}
 
 package:
   name: wand
-  version: '{{ version }}'
+  version: {{ version }}
 
 source:
   url: https://github.com/emcconville/wand/releases/download/{{ version }}/Wand-{{ version }}.tar.gz
-  sha256: '{{ hash_value }}'
+  sha256: ec981b4f07f7582fc564aba8b57763a549392e9ef8b6a338e9da54cdd229cf95
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv '
 
 requirements:
   host:
@@ -30,7 +29,7 @@ test:
 about:
   home: https://github.com/emcconville/wand
   license: MIT
-  summary: 'Wand is a ctypes-based simple ImageMagick binding for Python, supporting 2.7, 3.6+, and PyPy'
+  summary: Wand is a ctypes-based simple ImageMagick binding for Python, supporting 2.7, 3.6+, and PyPy
   license_file: LICENSE
   license_family: MIT
 
