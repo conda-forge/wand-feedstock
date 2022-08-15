@@ -5,7 +5,7 @@ Home: https://github.com/emcconville/wand
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wand-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wand-feedstock/blob/main/LICENSE.txt)
 
 Summary: Wand is a ctypes-based simple ImageMagick binding for Python, supporting 2.7, 3.6+, and PyPy
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7561&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/wand-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7561&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/wand-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@melonhead901](https://github.com/melonhead901/)
 * [@r78v10a07](https://github.com/r78v10a07/)
 
