@@ -1,4 +1,4 @@
-{% set version = "0.6.7" %}
+{% set version = "0.6.10" %}
 
 package:
   name: wand
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/emcconville/wand/releases/download/{{ version }}/Wand-{{ version }}.tar.gz
-  sha256: ebc01bccc25dba68414ab55b482341f9ad2b197d7f49d5e724f339bbf63fb6db
+  sha256: 373f4a7f2866c868c31ce910e1f9b36a92d132640a20068ec17cea3284fedc57
 
 build:
   noarch: python
