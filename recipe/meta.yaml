@@ -1,3 +1,4 @@
+
 {% set version = "0.6.10" %}
 
 package:
@@ -7,6 +8,7 @@ package:
 source:
   url: https://github.com/emcconville/wand/releases/download/{{ version }}/Wand-{{ version }}.tar.gz
   sha256: 373f4a7f2866c868c31ce910e1f9b36a92d132640a20068ec17cea3284fedc57
+
 
 build:
   noarch: python
@@ -37,4 +39,3 @@ extra:
   recipe-maintainers:
     - melonhead901
     - r78v10a07
-    - melonhead901
